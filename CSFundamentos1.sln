@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados1", "TiposDeDados1\TiposDeDados1.csproj", "{ED155111-34C4-4448-8947-140A77DA7EB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoDeDados2", "TipoDeDados2\TipoDeDados2.csproj", "{420573C0-D283-47E9-ABCA-CA83B9A7E0B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados2", "TipoDeDados2\TiposDeDados2.csproj", "{420573C0-D283-47E9-ABCA-CA83B9A7E0B6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados3", "TiposDeDados3\TiposDeDados3.csproj", "{58580B85-2256-4717-91D4-CEB21D52EAF8}"
 EndProject
@@ -17,13 +17,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypes1", "NullableT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identificadores", "Identificadores\Identificadores.csproj", "{8053196F-B3FF-45E0-9813-7F056F17BD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaidaDados", "SaidaDados\SaidaDados.csproj", "{09B4930D-8403-4A08-ADAE-7654E28776FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaidaDados", "SaidaDados\SaidaDados.csproj", "{09B4930D-8403-4A08-ADAE-7654E28776FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaidaDados2", "SaidaDados2\SaidaDados2.csproj", "{46215599-98FB-4E4E-BCA4-FCD6F3AC00DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaidaDados2", "SaidaDados2\SaidaDados2.csproj", "{46215599-98FB-4E4E-BCA4-FCD6F3AC00DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoTipos1", "ConversaoTipos1\ConversaoTipos1.csproj", "{B79CABF4-A115-4125-83A4-F3AB598A9503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoTipos1", "ConversaoTipos1\ConversaoTipos1.csproj", "{B79CABF4-A115-4125-83A4-F3AB598A9503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoTipos2", "ConversaoTipos2\ConversaoTipos2.csproj", "{AD47257E-7E95-4FF0-AFD0-9ED6DC713DB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoTipos2", "ConversaoTipos2\ConversaoTipos2.csproj", "{AD47257E-7E95-4FF0-AFD0-9ED6DC713DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{B99B66DB-9E32-4BA7-94AF-1BE58079B1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAritmeticos", "OperadoresAritmeticos\OperadoresAritmeticos.csproj", "{1699A3FA-A73E-4E77-9B7A-02CF6959F286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferenciaTipos1", "InferenciaTipos1\InferenciaTipos1.csproj", "{D8F36893-A3CE-4445-889B-A6931F8CC856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao1", "OperadoresAtribuicao1\OperadoresAtribuicao1.csproj", "{9018F114-4FD6-4CED-B0E7-3DB2B2BEE1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constantes1", "Constantes1\Constantes1.csproj", "{DB554E91-5E48-4B8B-AD91-F99AB13ECF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresIncrementoDecremento1", "OperadoresIncrementoDecremento1\OperadoresIncrementoDecremento1.csproj", "{1E97B436-DEB6-402D-92E6-1C4686F473C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresRelacionais", "OperadoresRelacionais\OperadoresRelacionais.csproj", "{A19FA991-5794-4B00-8BA1-FE5A16589DDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +89,34 @@ Global
 		{AD47257E-7E95-4FF0-AFD0-9ED6DC713DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD47257E-7E95-4FF0-AFD0-9ED6DC713DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD47257E-7E95-4FF0-AFD0-9ED6DC713DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99B66DB-9E32-4BA7-94AF-1BE58079B1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99B66DB-9E32-4BA7-94AF-1BE58079B1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99B66DB-9E32-4BA7-94AF-1BE58079B1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99B66DB-9E32-4BA7-94AF-1BE58079B1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1699A3FA-A73E-4E77-9B7A-02CF6959F286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1699A3FA-A73E-4E77-9B7A-02CF6959F286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1699A3FA-A73E-4E77-9B7A-02CF6959F286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1699A3FA-A73E-4E77-9B7A-02CF6959F286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F36893-A3CE-4445-889B-A6931F8CC856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F36893-A3CE-4445-889B-A6931F8CC856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F36893-A3CE-4445-889B-A6931F8CC856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F36893-A3CE-4445-889B-A6931F8CC856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9018F114-4FD6-4CED-B0E7-3DB2B2BEE1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9018F114-4FD6-4CED-B0E7-3DB2B2BEE1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9018F114-4FD6-4CED-B0E7-3DB2B2BEE1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9018F114-4FD6-4CED-B0E7-3DB2B2BEE1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB554E91-5E48-4B8B-AD91-F99AB13ECF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB554E91-5E48-4B8B-AD91-F99AB13ECF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB554E91-5E48-4B8B-AD91-F99AB13ECF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB554E91-5E48-4B8B-AD91-F99AB13ECF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E97B436-DEB6-402D-92E6-1C4686F473C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E97B436-DEB6-402D-92E6-1C4686F473C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E97B436-DEB6-402D-92E6-1C4686F473C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E97B436-DEB6-402D-92E6-1C4686F473C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19FA991-5794-4B00-8BA1-FE5A16589DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19FA991-5794-4B00-8BA1-FE5A16589DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19FA991-5794-4B00-8BA1-FE5A16589DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19FA991-5794-4B00-8BA1-FE5A16589DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

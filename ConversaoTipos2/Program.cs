@@ -19,10 +19,9 @@ bool valorBool = true;
 Console.WriteLine(Convert.ToString(valorInt1));
 Console.WriteLine(Convert.ToDouble(valorInt1));
 Console.WriteLine(Convert.ToString(valorBool));
-Console.WriteLine(Convert.ToInt32(valorDouble));
+Console.WriteLine(Convert.ToInt32(valorDouble1));
 
-
-// Overflow 
+// Overflow Exception
 int varInt2 = 100000;
 Console.WriteLine(Convert.ToByte(varInt2));
 
