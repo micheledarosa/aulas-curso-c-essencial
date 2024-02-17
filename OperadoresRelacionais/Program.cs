@@ -23,5 +23,4 @@ Console.WriteLine($"Valor de b {b}");
 Console.WriteLine(a == b);
 Console.WriteLine(a.Equals(b));
 
-
 Console.ReadKey();
